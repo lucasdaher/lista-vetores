@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <locale.h>
+#include <conio.h>
 
 int primo(int numero)
 {
@@ -46,5 +47,6 @@ int main()
     printf("Nenhum numero primo foi encontrado...\n");
   }
 
+  getch();
   return 0;
 }
