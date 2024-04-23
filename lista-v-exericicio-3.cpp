@@ -3,19 +3,12 @@
 #include <locale.h>
 #include <conio.h>
 
-float calcularValorFinal(float valorTotal, float taxa)
-{
-  float resultado = 0.0;
-
-  return resultado;
-}
-
 int main()
 {
   char produtos[10][20] = {"Maca", "Banana", "Batata", "Uva", "Pera", "Refrigerante", "Suco de Morango", "Carne", "Frango", "Alface"};
   int quantidadeVendida[10], opcao;
   float valorUnitario[10], valorTotal[10];
-  float salario = 545.0, somaValorTotal, salarioFinal, taxa = 5.0;
+  float salario = 545.0, somaValorTotal;
 
   do
   {
@@ -48,7 +41,7 @@ int main()
       {
         printf("Digite a quantidade de venda para %s: \n", produtos[i]);
         scanf("%d", &quantidadeVendida[i]);
-        printf("Adicionando a quantidade de venda para %s (%dx)\n\n", produtos[i], quantidadeVendida[i]);
+        // printf("Adicionando a quantidade de venda para %s (%dx)\n\n", produtos[i], quantidadeVendida[i]);
       }
 
       system("cls");
