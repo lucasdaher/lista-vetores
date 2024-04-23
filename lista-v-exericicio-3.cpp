@@ -41,7 +41,6 @@ int main()
       {
         printf("Digite a quantidade de venda para %s: \n", produtos[i]);
         scanf("%d", &quantidadeVendida[i]);
-        // printf("Adicionando a quantidade de venda para %s (%dx)\n\n", produtos[i], quantidadeVendida[i]);
       }
 
       system("cls");
