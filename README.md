@@ -1,5 +1,8 @@
 # Lista de Vetores e Matrizes
-Os exercícios ainda não foram finalizados...
+Exercícios completos:
+- 1
+- 2
+- 3
 
 > [!CAUTION]
 > Alguns exercícios estão pendentes, veja novamente outro dia...
